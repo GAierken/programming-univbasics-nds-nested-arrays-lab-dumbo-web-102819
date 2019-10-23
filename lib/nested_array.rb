@@ -1,5 +1,5 @@
 # Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
-
+require "pry"
 ENNET_HOUSE = [
   "Don Gately",
   "Joelle van Dyne",
@@ -18,7 +18,7 @@ ENFIELD_TENNIS_ACADEMY = [
 
 def assembled_matrix(array)
   new_array=[ENNET_HOUSE,ENFIELD_TENNIS_ACADEMY]
-  
+
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
 end
