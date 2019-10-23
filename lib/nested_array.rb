@@ -18,7 +18,7 @@ ENFIELD_TENNIS_ACADEMY = [
 
 def assembled_matrix(array)
   new_array=[ENNET_HOUSE,ENFIELD_TENNIS_ACADEMY]
-
+  binding.pry
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
 end
